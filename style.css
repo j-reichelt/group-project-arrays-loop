@@ -1,0 +1,33 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;	
+	font-family: 'Courier New', Courier, monospace;
+}
+
+html {
+	margin: 0 2rem; 
+}
+
+p {
+	padding: 1rem;
+}
+
+h1 {
+	border: solid 1px black;
+	background-color: black;
+	color: white;
+	padding: 2rem;
+	text-align: center;
+}
+
+#cities {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	}
+
+li {
+	padding: 1rem;
+
+}
